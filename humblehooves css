@@ -293,6 +293,7 @@ font-weight: 600;
   border-radius: 10px
 }
 
+/*Group Icon Size/Text */
     .side-nav .display-group img {
         display: block;
         max-height: 200px;
@@ -305,9 +306,4 @@ font-weight: 600;
         text-align: center;
         font-size: 18px;
         padding-bottom: 0;
-}
-
-.side-nav {
-    position: sticky;
-    top: 0;
 }
