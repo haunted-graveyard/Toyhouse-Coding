@@ -1,0 +1,294 @@
+/*entire sidebar background color*/
+.sidebar {
+}
+
+/*sidebar link colors (explanatory)*/
+.sidebar-li-bulletins a { color:#FF5250 }
+.sidebar-li-characters a { color:#FFA250 }
+.sidebar-li-forums a { color:#D2C42C }
+.sidebar-li-members a { color:#33CF38 }
+.sidebar-li-comments a { color:#42BADF }
+
+/*sidebar imp/myo/mod/admin text colors*/
+li.subnavigation-header a { color:#5075FF}
+
+/*sidebar Imp.pages folder colors*/
+li.sidebar-li-page.sidebar-li-page-160097 a {color:#FF5250}
+li.sidebar-li-page.sidebar-li-page-160098 a {color:#FFA250}
+li.sidebar-li-page.sidebar-li-page-160266 a {color:#D2C42C}
+
+/*sidebar MYO.pages folder colors*/
+li.sidebar-li-page.sidebar-li-page-160101 a {color:#FF5250}
+li.sidebar-li-page.sidebar-li-page-160102 a {color:#FFA250}
+
+/*sidebar submit color*/
+.sidebar-li-submit-character a {
+color:#8450FF
+}
+
+/*sidebar mod panel colors*/
+li.sidebar-li-inbox a { color:#FF5250 }
+li.sidebar-li-create-bulletin a { color:#FFA250 }
+li.sidebar-li-edit-characters a { color:#D2C42C }
+li.sidebar-li-edit-members a { color:#33CF38 }
+
+/*sidebar admin panel colors*/
+li.sidebar-li-folders a {color:#FF5250}
+li.sidebar-li-edit-pages a {color:#FFA250}
+li.sidebar-li-edit-forums a {color:#D2C42C}
+li.sidebar-li-edit-world a {color:#33CF38}
+
+/*membership/leave settings colors*/
+li.sidebar-li-leave a {color:#42BADF}
+
+a {
+  transition-property: text-shadow;
+    text-shadow: 0px 0px 0px;
+  text-decoration: none
+}
+ 
+/* you can change the fastness of the link but i dont recommend it considering people might be sensitive to fast flashing colors!! */
+a:hover {
+  text-shadow: 0px 0px 5px;
+  text-decoration: none;
+-webkit-animation:rainbow 5s infinite;
+-ms-animation:rainbow 5s infinite;
+-o-animation:rainbow 5s infinite;
+animation:rainbow 5s infinite;
+}
+@-webkit-keyframes rainbow {
+0% {color: #ff0000;
+  text-shadow: 0px 0px 5px #ff0000;
+}
+10% {color: #ff8000;
+  text-shadow: 0px 0px 5px #ff8000;
+}
+20% {color: #ffff00;
+  text-shadow: 0px 0px 5px #ffff00;
+}
+30% {color: #80ff00;
+  text-shadow: 0px 0px 5px #80ff00;
+}
+40% {color: #00ff00;
+  text-shadow: 0px 0px 5px #00ff00;
+}
+50% {color: #00ff80;
+  text-shadow: 0px 0px 5px #00ff80;
+}
+60% {color: #00ffff;
+  text-shadow: 0px 0px 5px #00ffff;
+}
+70% {color: #0080ff;
+  text-shadow: 0px 0px 5px #0080ff;
+}
+80% {color: #0000ff;
+  text-shadow: 0px 0px 5px #0000ff;
+}
+90% {color: #8000ff;
+  text-shadow: 0px 0px 5px #8000ff;
+}
+100% {color: #ff0080; 
+  text-shadow: 0px 0px 5px #ff0080;
+}
+}
+ 
+ 
+@-ms-keyframes rainbow {
+0% {color: #ff0000;
+  text-shadow: 0px 0px 5px #ff0000;
+}
+10% {color: #ff8000;
+  text-shadow: 0px 0px 5px #ff8000;
+}
+20% {color: #ffff00;
+  text-shadow: 0px 0px 5px #ffff00;
+}
+30% {color: #80ff00;
+  text-shadow: 0px 0px 5px #80ff00;
+}
+40% {color: #00ff00;
+  text-shadow: 0px 0px 5px #00ff00;
+}
+50% {color: #00ff80;
+  text-shadow: 0px 0px 5px #00ff80;
+}
+60% {color: #00ffff;
+  text-shadow: 0px 0px 5px #00ffff;
+}
+70% {color: #0080ff;
+  text-shadow: 0px 0px 5px #0080ff;
+}
+80% {color: #0000ff;
+  text-shadow: 0px 0px 5px #0000ff;
+}
+90% {color: #8000ff;
+  text-shadow: 0px 0px 5px #8000ff;
+}
+100% {color: #ff0080; 
+  text-shadow: 0px 0px 5px #ff0080;
+}
+}
+ 
+ 
+@-o-keyframes rainbow {
+0% {color: #ff0000;
+  text-shadow: 0px 0px 5px #ff0000;
+}
+10% {color: #ff8000;
+  text-shadow: 0px 0px 5px #ff8000;
+}
+20% {color: #ffff00;
+  text-shadow: 0px 0px 5px #ffff00;
+}
+30% {color: #80ff00;
+  text-shadow: 0px 0px 5px #80ff00;
+}
+40% {color: #00ff00;
+  text-shadow: 0px 0px 5px #00ff00;
+}
+50% {color: #00ff80;
+  text-shadow: 0px 0px 5px #00ff80;
+}
+60% {color: #00ffff;
+  text-shadow: 0px 0px 5px #00ffff;
+}
+70% {color: #0080ff;
+  text-shadow: 0px 0px 5px #0080ff;
+}
+80% {color: #0000ff;
+  text-shadow: 0px 0px 5px #0000ff;
+}
+90% {color: #8000ff;
+  text-shadow: 0px 0px 5px #8000ff;
+}
+100% {color: #ff0080; 
+  text-shadow: 0px 0px 5px #ff0080;
+}
+}
+ 
+ 
+@keyframes rainbow {
+0% {color: #ff0000;
+  text-shadow: 0px 0px 5px #ff0000;
+}
+10% {color: #ff8000;
+  text-shadow: 0px 0px 5px #ff8000;
+}
+20% {color: #ffff00;
+  text-shadow: 0px 0px 5px #ffff00;
+}
+30% {color: #80ff00;
+  text-shadow: 0px 0px 5px #80ff00;
+}
+40% {color: #00ff00;
+  text-shadow: 0px 0px 5px #00ff00;
+}
+50% {color: #00ff80;
+  text-shadow: 0px 0px 5px #00ff80;
+}
+60% {color: #00ffff;
+  text-shadow: 0px 0px 5px #00ffff;
+}
+70% {color: #0080ff;
+  text-shadow: 0px 0px 5px #0080ff;
+}
+80% {color: #0000ff;
+  text-shadow: 0px 0px 5px #0000ff;
+}
+90% {color: #8000ff;
+  text-shadow: 0px 0px 5px #8000ff;
+}
+100% {color: #ff0080; 
+  text-shadow: 0px 0px 5px #ff0080;
+}
+}
+ 
+a:active {
+  text-shadow: 0px 0px 5px;
+-webkit-animation:rainbow 1s infinite;
+-ms-animation:rainbow 1s infinite;
+-o-animation:rainbow 1s infinite;
+animation:rainbow 1s infinite;
+}
+
+/*bulletin*/
+li.sidebar-li-bulletins .fa-newspaper::before {
+content: "\f674";
+font-weight: 600;
+}
+
+/*characters*/
+li.sidebar-li-characters .fa-user::before {
+content: "\f6f0";
+font-weight: 600;
+}
+
+/*forums*/
+li.sidebar-li-forums .fa-comments::before {
+content: "\f4b6";
+font-weight: 600;
+}
+
+/*members*/
+li.sidebar-li-members .fa-users::before {
+content: "\f4c9";
+font-weight: 600;
+}
+
+/*comments*/
+li.sidebar-li-comments .fa-comment::before {
+content: "\e146";
+font-weight: 600;
+}
+
+/*world pages*/
+li.subheader.subheader-margin.world-pages-subheader .fa-file::before {
+content: "\f5db";
+font-weight: 600;
+}
+
+/*subnav headers*/
+li.subnavigation-header .fa-folder::before {
+content: "\e189";
+font-weight: 600;
+}
+
+/*world functions*/
+li.subheader.subheader-margin.world-functions-subheader .fa-wrench::before { 
+content: "\f085"; 
+font-weight:600
+}
+
+/*submit chara*/
+li.sidebar-li-submit-character .fa-plus::before {
+content: "\f5ac";
+font-weight: 600;
+}
+
+/*membership settings*/
+li.sidebar-li-leave .fa-wrench::before {
+content: "\f142";
+font-weight: 600;
+}
+
+/*leave world*/
+li.sidebar-li-leave .fa-minus::before {
+content: "\f2f5";
+font-weight: 600;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #F7F4FD;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#FF5250, #FFA250, #FFF150, #62FF50, #50D6FF, #8450FF);
+  border-radius: 10px
+}
