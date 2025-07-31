@@ -295,8 +295,8 @@ font-weight: 600;
 
     .side-nav .display-group img {
         display: block;
-        max-height: 400px;
-        max-width: 400px;
+        max-height: 200px;
+        max-width: 200px;
         margin: 0 auto !important;
         padding: 10px;
 }
@@ -305,4 +305,9 @@ font-weight: 600;
         text-align: center;
         font-size: 18px;
         padding-bottom: 0;
+}
+
+.side-nav {
+    position: sticky;
+    top: 0;
 }
