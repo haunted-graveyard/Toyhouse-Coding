@@ -292,3 +292,17 @@ font-weight: 600;
   background: linear-gradient(#FF5250, #FFA250, #FFF150, #62FF50, #50D6FF, #8450FF);
   border-radius: 10px
 }
+
+    .side-nav .display-group img {
+        display: block;
+        max-height: 400px;
+        max-width: 400px;
+        margin: 0 auto !important;
+        padding: 10px;
+}
+
+.side-nav .display-group a {
+        text-align: center;
+        font-size: 18px;
+        padding-bottom: 0;
+}
